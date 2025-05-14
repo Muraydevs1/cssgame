@@ -1,11 +1,11 @@
 "use client"
 
 import { useState, useEffect, useCallback } from "react"
-import GameBoard from "../components/GameBoard"
-import ScorePanel from "../components/ScorePanel"
-import GameMenu from "../components/GameMenu"
-import GameOver from "../components/GameOver"
-import Instructions from "../components/Instructions"
+import GameBoard from "../components/GameBoard.jsx"
+import ScorePanel from "../components/ScorePanel.jsx"
+import GameMenu from "../components/GameMenu.jsx"
+import GameOver from "../components/GameOver.jsx"
+import Instructions from "../components/Instructions.jsx"
 import { FaCog } from "react-icons/fa"
 import Settings from "../components/Settings"
 
