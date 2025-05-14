@@ -1,13 +1,13 @@
 "use client"
 
 import { useState, useEffect, useCallback } from "react"
-import GameBoard from "../components/GameBoard.jsx"
-import ScorePanel from "../components/ScorePanel.jsx"
-import GameMenu from "../components/GameMenu.jsx"
-import GameOver from "../components/GameOver.jsx"
-import Instructions from "../components/Instructions.jsx"
+import GameBoard from "./GameBoard.jsx"
+import ScorePanel from "./ScorePanel.jsx"
+import GameMenu from "./GameMenu.jsx"
+import GameOver from "./GameOver.jsx"
+import Instructions from "./Instructions.jsx"
 import { FaCog } from "react-icons/fa"
-import Settings from "../components/Settings"
+import Settings from "./Settings.jsx"
 
 export default function MemoryMatchGame() {
   const [gameState, setGameState] = useState("menu") // menu, playing, gameOver
